@@ -1,1 +1,1 @@
-# Mysterious Beans theme
+# Mysterious Beans Theme
