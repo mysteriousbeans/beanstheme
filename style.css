@@ -1,0 +1,218 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Mysterious Beans theme - child theme of GeneratePress
+ Author:       John, based on GP by Tom Usborne
+ Author URI:   https://mysteriousbeans.com
+ Template:     generatepress
+ Version:      1.0.10
+*/
+
+
+/* ------ Top Navigation ------ */
+
+.main-navigation .main-nav ul li[class*="current-menu-"] > a {
+    font-weight: bold;
+}
+
+/* ------ Header ------- */
+
+.site-header {border-bottom: 1px solid #848fa5;}
+
+.entry-header {
+	text-align: center;}
+
+.quotescollection-quote p {
+    font-weight: 600;
+    margin-bottom: 1em;
+	padding-right: 5px;
+}
+
+blockquote.quotescollection-quote {
+    margin: 0px;
+}
+
+.wp-block-image figcaption {
+text-align: center;
+    font-size: 11px;
+	}
+
+.separate-containers .page-header-image-single {
+	margin-top: 0px;
+	border-bottom: 1px solid #CCC6B9;
+}
+
+/* ------- Buttons ------ */ 
+
+.button, #sb_instagram #sbi_load .sbi_load_btn, #sb_instagram .sbi_follow_btn a, input[type="submit"] {
+	border-radius:3px;
+	border: 1px solid #1e1e1e;
+}
+
+.load-more {
+  text-align: center;
+}
+
+
+
+/*  Footer   */
+
+.site-footer {
+    border-top: 1px solid #848fa5;
+} 
+
+.footer-widgets {
+    font-weight: 500;
+}
+
+.footericons i {
+    font-size: 1.3em;
+}
+
+/*.footer-widgets-container.grid-container.grid-parent {
+    border-top: 1px solid #1E1E1E;
+	padding-top:30px;
+} */
+
+
+/** -------- instagram -------**/
+
+#sb_instagram .sb_instagram_header a {
+    float: none;
+}
+
+#sb_instagram .sb_instagram_header .sbi_header_text h3 {
+    float: none;
+    clear: both;
+    width: auto;
+	text-align: center;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.sbi_header_text .fab {
+    vertical-align: text-bottom;
+	padding-right: 10px;
+	font-size: 24px;
+}
+
+@media (min-width: 480px) {
+#sb_instagram .sb_instagram_header.sbi_medium .sbi_header_text h3 {
+    margin-right: 0px!important;
+	margin-left: 0px!important;
+}
+}
+	
+/** -------- Author archive pages ----- **/
+
+.archive.author h1.page-title {
+    margin-bottom: 10px;
+}
+
+.page-title img {
+    border-radius: 3px;
+}
+
+
+
+/** --------- Social sharing buttons -------- **/
+
+.scriptlesssocialsharing {
+    box-sizing: border-box;
+    margin: 30px auto;
+}
+
+h3.scriptlesssocialsharing__heading {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #848FA5;
+	font-size: 20px;
+}
+
+.scriptlesssocialsharing__buttons {
+    display: flex;
+    max-width: 650px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scriptlesssocialsharing__buttons a.button {
+	border-radius: 3px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.scriptlesssocialsharing__buttons a.button:hover {
+	background: #fff;
+}
+
+
+/** ------------ Fix for making instagram embeds centred -----**/
+/** -------(probably can find a better way to do this, but it works)----**/
+
+.instagram-media {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/** ------ Books link group ------------------------- **/
+
+.booklinksbox h3 {
+	margin-bottom: 5px;
+}
+
+/**----------------Locally loaded font - Lora--------------**/
+
+/* lora-regular - latin-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-regular.eot'); /* IE9 Compat Modes */
+  src: local('Lora Regular'), local('Lora-Regular'),
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-regular.woff') format('woff'), /* Modern Browsers */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-regular.svg#Lora') format('svg'); /* Legacy iOS */
+}
+/* lora-italic - latin-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 400;
+  src: url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-italic.eot'); /* IE9 Compat Modes */
+  src: local('Lora Italic'), local('Lora-Italic'),
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-italic.woff') format('woff'), /* Modern Browsers */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-italic.svg#Lora') format('svg'); /* Legacy iOS */
+}
+/* lora-700 - latin-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-700.eot'); /* IE9 Compat Modes */
+  src: local('Lora Bold'), local('Lora-Bold'),
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-700.woff') format('woff'), /* Modern Browsers */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-700.svg#Lora') format('svg'); /* Legacy iOS */
+}
+/* lora-700italic - latin-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 700;
+  src: url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-700italic.eot'); /* IE9 Compat Modes */
+  src: local('Lora Bold Italic'), local('Lora-BoldItalic'),
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-700italic.woff') format('woff'), /* Modern Browsers */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('https://stagingbeans.mysteriousbeans.site/wp-content/themes/generatepress_child/fonts/lora-v14-latin-ext-700italic.svg#Lora') format('svg'); /* Legacy iOS */
+}
