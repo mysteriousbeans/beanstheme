@@ -13,13 +13,15 @@ function generatepress_child_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'generatepress_child_enqueue_scripts', 100 );
 
-add_action( 'wp_enqueue_scripts', 'tu_load_font_awesome' );
+
 /** 
  * Enqueue Font Awesome. 
  */
 function tu_load_font_awesome() {
-    wp_enqueue_style( 'font-awesome', '//use.fontawesome.com/releases/v5.5.0/css/all.css', array(), '5.5.0' );
+    wp_enqueue_style('font-awesome', get_stylesheet_directory_uri() . '/css/all.css');
 }
+
+add_action( 'wp_enqueue_scripts', 'tu_load_font_awesome' );
 
 add_filter( 'generate_typography_default_fonts', function( $fonts ) {
     $fonts[] = 'Lora';
