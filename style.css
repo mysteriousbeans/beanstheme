@@ -19,6 +19,10 @@
 
 .site-header {border-bottom: 1px solid #848fa5;}
 
+
+/* -------- Unsorted styles ------- */
+
+
 .entry-header {
 	text-align: center;}
 
@@ -34,8 +38,9 @@ blockquote.quotescollection-quote {
 
 .wp-block-image figcaption {
 text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
+    margin-top: 0;
 	}
 
 .separate-containers .page-header-image-single {
@@ -76,7 +81,7 @@ text-align: center;
 } */
 
 
-/** -------- instagram -------**/
+/** -------- Instagram feed -------**/
 
 #sb_instagram .sb_instagram_header a {
     float: none;
