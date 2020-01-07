@@ -48,6 +48,16 @@ text-align: center;
 	border-bottom: 1px solid #CCC6B9;
 }
 
+/* ------- List styles -----*/
+
+ol li {
+	margin-bottom:10px;
+}
+
+ol li:last-child {
+    margin-bottom: 0;
+}
+
 /* ------- Buttons ------ */ 
 
 .button, #sb_instagram #sbi_load .sbi_load_btn, #sb_instagram .sbi_follow_btn a, input[type="submit"] {
