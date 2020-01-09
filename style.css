@@ -22,6 +22,10 @@
 
 /* -------- Unsorted styles ------- */
 
+.entry-content a {
+    text-decoration: underline;
+    text-decoration-color: #c65962;
+}
 
 .entry-header {
 	text-align: center;}
