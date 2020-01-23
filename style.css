@@ -5,7 +5,7 @@
  Author:       John, based on GP by Tom Usborne
  Author URI:   https://mysteriousbeans.com
  Template:     generatepress
- Version:      1.1.1
+ Version:      1.1.2
 */
 
 
@@ -13,6 +13,13 @@
 
 .main-navigation .main-nav ul li[class*="current-menu-"] > a {
     font-weight: bold;
+}
+
+/* stops multiple categories being highlighted in nav menu */
+.main-navigation .main-nav ul li.current-post-parent ~ .current-post-parent > a {
+    background-color: transparent;
+    color: #fff;
+    font-weight: 400;
 }
 
 /* ------ Header ------- */
@@ -38,6 +45,11 @@
 
 blockquote.quotescollection-quote {
     margin: 0px;
+}
+
+.textwidget hr {
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .wp-block-image figcaption {
